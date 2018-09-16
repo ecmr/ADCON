@@ -1,0 +1,6 @@
+C:\Repos\ADCON\ConversorLibrary\bin\Debug\ConversorLibrary.dll
+C:\Repos\ADCON\ConversorLibrary\bin\Debug\ConversorLibrary.pdb
+C:\Repos\ADCON\ConversorLibrary\obj\Debug\ConversorLibrary.csprojAssemblyReference.cache
+C:\Repos\ADCON\ConversorLibrary\obj\Debug\ConversorLibrary.csproj.CoreCompileInputs.cache
+C:\Repos\ADCON\ConversorLibrary\obj\Debug\ConversorLibrary.dll
+C:\Repos\ADCON\ConversorLibrary\obj\Debug\ConversorLibrary.pdb
