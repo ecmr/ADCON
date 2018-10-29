@@ -47,7 +47,7 @@ namespace WEB.ADCON
 
 
 
-                            StatusLabel.Text = "Upload status: File uploaded!";
+                            //StatusLabel.Text = "Upload status: File uploaded!";
                             Image1.ImageUrl = "~/Placas/" + filename;
 
                             Task<string> resultado = ProcessImage(Server.MapPath("~/Placas/") + filename);
@@ -77,15 +77,15 @@ namespace WEB.ADCON
                                 _count++;
                             }
                         }
-                        else
-                            StatusLabel.Text = "Upload status: The file has to be less than 100 kb!";
+                        //else
+                            //StatusLabel.Text = "Upload status: The file has to be less than 100 kb!";
                     }
-                    else
-                        StatusLabel.Text = "Upload status: Only JPEG files are accepted!";
+                    //else
+                        //StatusLabel.Text = "Upload status: Only JPEG files are accepted!";
                 }
                 catch (Exception ex)
                 {
-                    StatusLabel.Text = "Upload status: The file could not be uploaded. The following error occured: " + ex.Message;
+                    //StatusLabel.Text = "Upload status: The file could not be uploaded. The following error occured: " + ex.Message;
                 }
             }
         }
